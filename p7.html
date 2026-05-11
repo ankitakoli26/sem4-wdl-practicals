@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>DOM</title>
+        <script>
+
+function changeText()
+{
+   document.getElementById("demo").innerHTML="Welcome ANKITA";
+   document.getElementById("demo").style.color="blue";
+   document.getElementById("demo").style.fontSize="30px";
+
+}
+
+        </script>
+    </head>
+    <body bgcolor="lightyellow">
+        <center>
+            <h1>DOM manipulation</h1>
+            <p id="demo">
+                Click Button To Change Content
+            </p>
+            <button onclick="changeText()">
+                CLICK HERE
+            </button>
+        </center>
+    </body>
+</html>
